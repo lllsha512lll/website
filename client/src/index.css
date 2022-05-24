@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --color-bg: 	#181818;
+  --color-primary: #325da7;
+  --color-primary-variant:#f68c06;
+  --color-white: #fff;
+  --color-light: #f7f7f7;
+
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  /*background-image: url(../src/assets/n1.png);*/
+}
